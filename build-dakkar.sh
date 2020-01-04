@@ -69,7 +69,7 @@ function get_rom_type() {
         case "$1" in
             havoc)
                 mainrepo="https://github.com/Havoc-OS/android_manifest.git"
-                mmainbranch="ten"
+                mainbranch="ten"
                 localManifestBranch="android-10.0"
                 treble_generate="havoc"
                 extra_make_options="WITHOUT_CHECK_API=true"
