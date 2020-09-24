@@ -68,10 +68,10 @@ function get_rom_type() {
     while [[ $# -gt 0 ]]; do
         case "$1" in
             havoc)
-                mainrepo="https://github.com/Havoc-OS/android_manifest.git"
-                mainbranch="ten"
+                mainrepo="https://github.com/BootleggersROM/manifest.git"
+                mainbranch="queso"
                 localManifestBranch="android-10.0"
-                treble_generate="havoc"
+                treble_generate="bootleg"
                 extra_make_options="WITHOUT_CHECK_API=true"
                 jack_enabled="true"	   
 	esac
