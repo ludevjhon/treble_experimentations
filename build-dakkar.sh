@@ -67,7 +67,7 @@ EOF
 function get_rom_type() {
     while [[ $# -gt 0 ]]; do
         case "$1" in
-            havoc)
+            bootleg)
                 mainrepo="https://github.com/BootleggersROM/manifest.git"
                 mainbranch="queso"
                 localManifestBranch="android-10.0"
